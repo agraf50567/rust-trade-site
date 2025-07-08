@@ -5,7 +5,11 @@ function App() {
   return (
     <div className="bg-black text-white min-h-screen font-sans">
       <header className="flex justify-between items-center px-6 py-4 bg-zinc-900">
-        <h1 className="text-xl font-extrabold tracking-wide">RUSTDEALS</h1>
+        <div className="flex items-center space-x-2">
+  <img src="/logo.png" alt="RustDeals Logo" className="h-8 w-8 object-contain" />
+  <h1 className="text-xl font-extrabold tracking-wide">RUSTDEALS</h1>
+</div>
+
         <nav className="flex gap-6 items-center text-sm">
           <a href="#" className="text-purple-400 underline font-semibold">HOME</a>
           <a href="#" className="hover:text-purple-300">SHOP</a>
